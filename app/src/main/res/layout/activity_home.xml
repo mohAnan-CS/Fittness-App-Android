@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/username_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout" />
+
+    <Button
+        android:id="@+id/btn_aboutWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About weight"
+        android:onClick="bmi_page"/>
+
+    <Button
+        android:id="@+id/btn_userInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="information" />
+
+    <Button
+        android:id="@+id/btn_logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out" />
+</LinearLayout>
